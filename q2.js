@@ -6,15 +6,15 @@ for (i = 0; i < 25; i++) {
     var n = i % 2;
     var stud = studlist[i];
     if (i != 0 && n != 0) {
-        french.push(stud);
+        french[french.length] = stud;
 
     }
     else if (i != 0 && n == 0) {
-        german.push(stud);
+        german[german.length] = stud;
 
     }
     else {
-        neither.push(stud);
+        neither[neither.length] = stud;
 
     }
 }
